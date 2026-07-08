@@ -1,63 +1,36 @@
 # MediTrack – Healthcare Appointment & Billing System Testing
 
-# Overview
+Automated software testing portfolio for a healthcare appointment, prescription, medical records, and billing system.
 
-MediTrack is a healthcare management system designed to support patient registration, appointment scheduling, prescription management, medical records, and billing. This repository showcases comprehensive software testing performed on the application using industry-standard testing techniques.
+## Overview
 
-**Note:**
-The base application source code was provided as part of a university Software Testing course. My primary contribution includes designing, implementing, and documenting the automated test suite, coverage analysis, and quality assurance artifacts.
+MediTrack is a healthcare management system that supports patient registration, appointment scheduling, prescription management, medical records, and billing workflows.
 
+This repository showcases comprehensive software testing performed using PyTest and industry-standard QA techniques to validate application functionality, improve software reliability, and verify requirements.
+
+> **Note:** Developed and maintained an automated testing suite for a healthcare appointment and billing system. The application source code was provided as part of a university software testing project. My contributions focused on designing, implementing, and validating comprehensive automated tests and QA artifacts.
 
 # Technologies
 
-- Python
-- PyTest
-- SQLite
-- Coverage.py
-- Git
-- GitHub
-
+Python • PyTest • SQLite • Coverage.py • Git • GitHub
 
 # Testing Techniques
 
-- Black-Box Testing
-- White-Box Testing
-- Boundary Value Analysis (BVA)
-- Equivalence Class Partitioning (ECP)
-- Decision Table Testing
-- State Transition Testing
-- Integration Testing
-- System Testing
-- Data Flow Testing
-- Pairwise Testing
-- Security Testing
-- Requirements Traceability Matrix (RTM)
+- Black-box testing: BVA, ECP, decision tables, state transition testing
+- White-box testing: condition coverage, branch coverage, loop testing, switch coverage
+- Integration and system testing across patient, appointment, records, and billing modules
+- Data-flow testing and path testing
+- Security testing for injection and invalid input handling
+- Pairwise testing and Requirements Traceability Matrix
 
+## Key Contributions
 
-# Project Structure
+- Developed 100+ automated test cases using PyTest.
+- Applied black-box, white-box, integration, system, data-flow, and security testing.
+- Created Requirements Traceability Matrix (RTM), pairwise testing, and coverage reports.
+- Organized a maintainable test suite with reusable fixtures and modular test structure.
 
-src/
-        Application source code
-
-tests/
-        Black Box Testing
-        White Box Testing
-        Integration Testing
-        Data Flow Testing
-        Security, RTM & Pairwise Testing
-
-docs/
-        Test Strategy
-        Coverage Reports
-        RTM
-        Security Report
-        Pairwise Testing
-
-screenshots/
-        Test execution and coverage screenshots
-
-
-# Features Tested
+## Features Tested
 
 - Patient Registration
 - Appointment Scheduling
@@ -67,7 +40,17 @@ screenshots/
 - Role-Based Access Control
 - Input Validation
 - Error Handling
-- Security Validation
 
-# Author
-**Bibek Dhakal**
+# Project Structure
+
+## Project Structure
+
+src/
+tests/
+   ├── black_box_testing/
+   ├── white_box_testing/
+   ├── integration_testing/
+   ├── data_flow_testing/
+   └── security_pairwise_testing/
+docs/
+screenshots/
